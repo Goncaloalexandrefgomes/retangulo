@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace retangulo
 {
     class calcular
-    {
+    { ///
         private double _a, _l; // _a -> Altura _l -> Largura
         public string Altura { set => _a = Convert.ToDouble(value); }
         public string Largura { set => _l = Convert.ToDouble(value); }
